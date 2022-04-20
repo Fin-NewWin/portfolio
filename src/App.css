@@ -8,3 +8,6 @@ body {
     padding: 25px;
     margin: 20px auto;
 }
+.top{
+    display:inline-block;
+}
