@@ -1,13 +1,23 @@
 body {
   background-color: #282828;
 }
-.Main{
-    color: #ebdbb2;
-    background-color: #3c3836;
+
+.intro{
+    display: flex;
     width: 80%;
     padding: 25px;
     margin: 20px auto;
+    background-color: #3c3836;
+    color: #ebdbb2;
 }
-.top{
-    display:inline-block;
+
+.intro-left{
+    flex: 1;
+}
+.intro-left-wrapper{
+    padding-left: 10px;
+}
+
+.intro-right{
+    flex: 1;
 }
