@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2812033a.css",
-    "main.js": "/portfolio/static/js/main.2ee1c4f0.js",
+    "main.css": "/portfolio/static/css/main.f931defe.css",
+    "main.js": "/portfolio/static/js/main.647ab415.js",
     "static/media/lorax_pfp.jpg": "/portfolio/static/media/lorax_pfp.68318b238b5820acebcc.jpg",
     "index.html": "/portfolio/index.html",
-    "main.2812033a.css.map": "/portfolio/static/css/main.2812033a.css.map",
-    "main.2ee1c4f0.js.map": "/portfolio/static/js/main.2ee1c4f0.js.map"
+    "main.f931defe.css.map": "/portfolio/static/css/main.f931defe.css.map",
+    "main.647ab415.js.map": "/portfolio/static/js/main.647ab415.js.map"
   },
   "entrypoints": [
-    "static/css/main.2812033a.css",
-    "static/js/main.2ee1c4f0.js"
+    "static/css/main.f931defe.css",
+    "static/js/main.647ab415.js"
   ]
 }
