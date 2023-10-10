@@ -1,20 +1,7 @@
 import "./App.css";
 import React from "react";
-<<<<<<< Updated upstream
-import pfp from "./lorax_pfp.jpg";
-
-function App() {
-    return (
-        <div className="intro">
-            <div className="intro-left">
-                <div className="intro-left-wrapper">
-                    <h2>Hello</h2>
-                </div>
-            </div>
-            <div className="intro-right">
-                <h2>TODO: pfp</h2>
-=======
 import pfp from "./pics/urielpic.jpg";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 function App() {
     return (
@@ -29,19 +16,32 @@ function App() {
                         </div>
                     </div>
                     <div className="intro-right">
-                        <h2>About MySelf:</h2>
-                        <p>I am Himothy, aka Finnothy aka Finn</p>
+                        <h2> Follow Me: </h2>
+                        <a href="https://www.linkedin.com/in/urielbarba/">
+                            {" "}
+                            <FaLinkedin /> urielbarba
+                        </a>
+
+                        <a href="https://github.com/ubarba18">
+                            {" "}
+                            <FaGithub /> ubarba18
+                        </a>
+                        <h2>About Me:</h2>
+                        <p>
+                            Hello, I'm Uriel Barba, a graduate of UC Merced with
+                            a Bachelor's degree in Computer Science and
+                            Engineering. Through various projects and student
+                            groups, I have gained skills in programming
+                            including data structures, algorithms, web
+                            development, leadership, and teamwork. I am
+                            passionate about applying my skills to real-world
+                            challenges and positively impacting the field of
+                            technology.
+                        </p>
                     </div>
                 </div>
 
-                <div className="intro-bottom">
-                    <h2>My Links:</h2>
-                    <a href="https://www.linkedin.com/in/urielbarba/">
-                        {" "}
-                        LinkedIn
-                    </a>
-                </div>
->>>>>>> Stashed changes
+                <div className="intro-bottom"></div>
             </div>
         </div>
     );
