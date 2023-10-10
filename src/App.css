@@ -2,6 +2,8 @@ body {
   background-color: #282828;
 }
 
+
+
 .intro{
     display: flex;
     width: 80%;
@@ -13,11 +15,29 @@ body {
 
 .intro-left{
     flex: 1;
+    text-align: center;
 }
 .intro-left-wrapper{
     padding-left: 10px;
+    
 }
 
 .intro-right{
     flex: 1;
+}
+
+.intro-bottom {
+    display: flex;
+    width: 80%;
+    padding: 25px;
+    margin: 20px auto;
+    background-color: #3c3836;
+    color: #ebdbb2;
+    
+}
+
+.pfp {
+    width: 45%;
+    height: auto;
+    border-radius: 300%;
 }
